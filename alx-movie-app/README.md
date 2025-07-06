@@ -1,40 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Objectives: To use an API right, you need to read and understand the API documentation. This will give you a clear outline of what is needed to successfully make an API request, while further manipulating the response object. Especially, in TypeScript, knowing the structure of the request and response object allows you to design types or interfaces.
 
-## Getting Started
+Instructions:
 
-First, run the development server:
+Create a New Project Directory:
+Create a new project repository named alx-project-0x14.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Create README.md:
+Create a README.md file in the root directory of your project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Review API Documentation:
+Visit the MoviesDatabase API documentation and review the available endpoints and features.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Add API Overview:
+In your README.md, add a heading using ## for the API overview. Summarize the key features of the API in your own words.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Add API Version:
+Below the API overview heading, add another heading using ## for version and state the version from the API documentation.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+List Available Endpoints:
+Create a section titled ## Available Endpoints and list the main endpoints available in the API along with a brief description of each.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Describe Request and Response Format:
+Add a section titled ## Request and Response Format detailing the structure of a typical request and the corresponding response object. Use examples from the documentation.
 
-## Learn More
+Authentication Requirements:
+Create a section titled ## Authentication and describe how to authenticate your requests (e.g., API key, headers required).
 
-To learn more about Next.js, take a look at the following resources:
+Error Handling:
+Include a section titled ## Error Handling where you explain common error responses from the API and how to handle them in your code.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Usage Limits and Best Practices:
+Add a final section titled ## Usage Limits and Best Practices that outlines any usage limitations (e.g., rate limits) and recommendations for effectively using the API.
